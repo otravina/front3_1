@@ -67,10 +67,8 @@ const products2: IProducts2 = {
     }
 };
 
-//show usages of the class
 products2.shoes.boots.forEach(p => console.log(p));
 
-//show usages of getters and setters
 let test_product: CProduct = products2.shoes.boots[0];
 console.log(test_product.finalPrice);
 test_product.finalPrice = 100;

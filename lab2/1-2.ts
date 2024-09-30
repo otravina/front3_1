@@ -42,7 +42,7 @@ function getAll(): IProduct[] {
     return items;
 }
 
-// console.log(getAll());
+console.log(getAll());
 
 interface IFilterOptions {
     price?: {
